@@ -1,0 +1,6 @@
+
+:root{
+    --color-primary: hsl(211, 100%, 50%); /* This is your base color, you can replace it with any color you want */
+    --color-primary-light: hsl(211, 100%, 60%); /* Adjust the percentage to change the lightness */
+    --color-primary-hover: hsl(211, 100%, 40%); /* Adjust the percentage to change the lightness */
+}

@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+/* body{
+    font-family: ;
+} */
+@import "./components/form.css";
+@import "./theme/colors.css";
+
+.htmx-indicator {
+    display: none;
+}
+.htmx-request .htmx-indicator {
+    display: inline;
+}
+.htmx-request.htmx-indicator {
+    display: inline;
+}
+
+/* For floara editor */
+
+.fr-wrapper > div:first-child {
+    display: none !important;
+}
+
+.fr-floating-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+#fr-logo {
+    display: none !important;
+}
+.text-contrast {
+    @apply text-gray-400 mix-blend-difference;
+}

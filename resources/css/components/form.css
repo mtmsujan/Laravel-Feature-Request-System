@@ -1,0 +1,15 @@
+.input{
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white;
+}
+.input-primary{
+    @apply focus:ring-primary focus:border-primary dark:focus:ring-primary dark:focus:border-primary;
+}
+.input-success{
+    @apply focus:ring-green-500 focus:border-green-500 dark:focus:ring-green-500 dark:focus:border-green-500;
+}
+.input-error{
+    @apply focus:ring-red-500 focus:border-red-500 dark:focus:ring-red-500 dark:focus:border-red-500;
+}
+.label{
+    @apply block mb-2 text-sm font-medium text-gray-900 dark:text-white;
+}
